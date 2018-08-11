@@ -47,7 +47,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :test do 
+group :test do
   gem 'capybara', '~> 3.5', '>= 3.5.1'
 end
 
