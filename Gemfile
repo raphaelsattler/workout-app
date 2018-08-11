@@ -22,6 +22,7 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
 gem 'rubocop', '~> 0.58.2'
+gem 'will_paginate-bootstrap', '~> 1.0.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
