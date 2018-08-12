@@ -19,6 +19,7 @@ gem 'd3-rails', '4.1.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
+gem 'redis', '3.3.0'
 gem 'rubocop', '~> 0.58.2'
 gem 'will_paginate-bootstrap', '~> 1.0.1'
 
