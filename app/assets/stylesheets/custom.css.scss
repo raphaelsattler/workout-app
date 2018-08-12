@@ -148,3 +148,10 @@ hr.msg {
 #post-btn {
   margin-right: -35px;
 }
+
+.member {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
