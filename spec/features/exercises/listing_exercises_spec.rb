@@ -43,11 +43,11 @@ RSpec.feature 'Listing Exercises' do
   end
 
   scenario "shows a list of user's friends" do
-    visit "/"
-    
-    click_link "My Lounge"
-    expect(page).to have_content("My Friends")
+    visit '/'
+
+    click_link 'My Lounge'
+    expect(page).to have_content('My Friends')
     expect(page).to have_link(@sarah.full_name)
-    expect(page).to have_link("Unfollow")
+    expect(page).to have_link('Unfollow')
   end
 end

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users, :controllers => { registrations: 'registrations' }
+  devise_for :users, controllers: { registrations: 'registrations' }
 
   root to: 'dashboards#index'
 
@@ -7,13 +7,13 @@ Rails.application.routes.draw do
     resources :exercises
   end
 
-   resources :dashboards, only: [:index] do
+  resources :dashboards, only: [:index] do
     collection do
       post :search, to: 'dashboards#search'
     end
   end
 
-  resources :friendships, only: [:show, :create, :destroy]
+  resources :friendships, only: %i[show create destroy]
   resources :messages, only: [:create]
 
   mount ActionCable.server => '/cable'
